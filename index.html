@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Sharer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Share Your Location</h1>
+        <p>Click the button to get your current GPS coordinates and share them via SMS.</p>
+        
+        <div id="status">Ready to get location.</div>
+        
+        <div id="coords-display">
+            <p>Latitude: <span id="latitude">N/A</span></p>
+            <p>Longitude: <span id="longitude">N/A</span></p>
+        </div>
+        
+        <button id="getLocationBtn">Get Location</button>
+        <button id="shareLocationBtn" disabled>Share via SMS</button>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
